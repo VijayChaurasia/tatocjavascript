@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5564" started-at="2018-07-12T12:36:25Z" finished-at="2018-07-12T12:36:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5564" started-at="2018-07-12T12:36:25Z" finished-at="2018-07-12T12:36:30Z">
+      <class name="com.qait.automation.tatoc_js.NewTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.qait.automation.tatoc_js.NewTest@604ed9f0]" name="before" is-config="true" duration-ms="2536" started-at="2018-07-12T12:36:25Z" finished-at="2018-07-12T12:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="teststep1()[pri:0, instance:com.qait.automation.tatoc_js.NewTest@604ed9f0]" name="teststep1" duration-ms="96" started-at="2018-07-12T12:36:27Z" finished-at="2018-07-12T12:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teststep1 -->
+        <test-method status="PASS" signature="teststep2()[pri:0, instance:com.qait.automation.tatoc_js.NewTest@604ed9f0]" name="teststep2" duration-ms="145" started-at="2018-07-12T12:36:28Z" depends-on-methods="com.qait.automation.tatoc_js.NewTest.teststep1" finished-at="2018-07-12T12:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teststep2 -->
+        <test-method status="PASS" signature="teststep3()[pri:0, instance:com.qait.automation.tatoc_js.NewTest@604ed9f0]" name="teststep3" duration-ms="2084" started-at="2018-07-12T12:36:28Z" depends-on-methods="com.qait.automation.tatoc_js.NewTest.teststep2" finished-at="2018-07-12T12:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teststep3 -->
+        <test-method status="PASS" signature="teststep4()[pri:0, instance:com.qait.automation.tatoc_js.NewTest@604ed9f0]" name="teststep4" duration-ms="278" started-at="2018-07-12T12:36:30Z" depends-on-methods="com.qait.automation.tatoc_js.NewTest.teststep3" finished-at="2018-07-12T12:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teststep4 -->
+        <test-method status="PASS" signature="teststep5()[pri:0, instance:com.qait.automation.tatoc_js.NewTest@604ed9f0]" name="teststep5" duration-ms="240" started-at="2018-07-12T12:36:30Z" depends-on-methods="com.qait.automation.tatoc_js.NewTest.teststep4" finished-at="2018-07-12T12:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teststep5 -->
+        <test-method status="PASS" signature="teststep6()[pri:0, instance:com.qait.automation.tatoc_js.NewTest@604ed9f0]" name="teststep6" duration-ms="155" started-at="2018-07-12T12:36:30Z" depends-on-methods="com.qait.automation.tatoc_js.NewTest.teststep5" finished-at="2018-07-12T12:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teststep6 -->
+      </class> <!-- com.qait.automation.tatoc_js.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
